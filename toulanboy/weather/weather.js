@@ -24,7 +24,7 @@
 
 */
 const $ = new Env('⏰ 下雨提醒')
-$.weather_url = ""   //这里需要你填。支持在boxjs中设置。
+$.weather_url = "https://weather.com/zh-CN/weather/hourbyhour/l/51c8ff02a10350edecab3bfb515a41c7fdc6e2de3b4ecc17d482009704046b4b"   //这里需要你填。支持在boxjs中设置。
 $.pre_hours = 24     //预测未来24小时，最多48小时
 $.timeout = 2000     //超时限制，单位ms
 $.always_notify = false
